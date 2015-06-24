@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 
 var paths = {
     // glob
-    app: 'client/app/**/*.js'
+    app: 'client/app/**/*.{js,css,html}'
 };
 
 gulp.task('build', function() {

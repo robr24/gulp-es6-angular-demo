@@ -1,0 +1,20 @@
+.note {
+    background-color: #fffa9c;
+    width: 24%;
+    height: 200px;
+    float: left;
+    margin: 1em;
+    color: black;
+    padding: 1em;
+    -webkit-box-shadow: 10px 9px 32px 0px rgba(148,142,148,1);
+-moz-box-shadow: 10px 9px 32px 0px rgba(148,142,148,1);
+box-shadow: 10px 9px 32px 0px rgba(148,142,148,1);
+position: relative;
+}
+
+.note button.delete {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+

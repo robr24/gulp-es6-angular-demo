@@ -6,10 +6,14 @@ module.exports = {
         filename: 'bundle.js'
     },
 
+    devtool: 'sourcemap',
+
     module: {
         loaders: [
             // regex match on files
-            { test: /\.js$/, loader: 'babel', excludes: [/\.node_modules/]}
+            { test: /\.js$/, loader: 'babel', exclude: [/node_modules/] },
+            { test: /\.html$/, loader: 'raw', exclude: [/node_modules/] },
+            { test: /\.css$/, loader: 'style!css' }
         ]
     }
 
