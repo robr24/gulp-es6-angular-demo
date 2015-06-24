@@ -16,6 +16,7 @@
     "gulp": "^3.9.0",
     "gulp-webpack": "^1.5.0",
     "lodash": "^3.9.3",
+    "purifycss-loader": "^1.0.0",
     "raw-loader": "^0.5.1",
     "run-sequence": "^1.1.1",
     "style-loader": "^0.12.3",
